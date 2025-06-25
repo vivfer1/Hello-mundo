@@ -1,3 +1,15 @@
+function inserirNome() {
+    let nomeUsuario = prompt("Qual o seu nome?");
+    let elemento = document.querySelector("#nome-usuario");
+    elemento.textContent = nomeUsuario;
+    }
+
+    inserirNome() {
+    let nomeUsuario = prompt("Qual o seu nome?");
+    let elemento = document.querySelector("#nome-usuario");
+    elemento.textContent = nomeUsuario;
+    }
+
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
