@@ -11,6 +11,8 @@ function inserirNome() {
     }
  inserirNome() 
 let linguagens = ["Javascript", "Python", "C"];
+const item = document.querySelector("#lista");
+item.textContent = linguagens[0];
 console.log(linguagens[0]);
 console.log(linguagens[1]);
 console.log(linguagens[2]);
