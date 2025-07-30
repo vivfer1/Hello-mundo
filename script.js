@@ -10,6 +10,14 @@ function inserirNome() {
     elemento.textContent = nomeUsuario;
     }
  inserirNome() 
+
+ let aluno1 = {
+  nome: "Gabriel",
+  idade: 13,
+  anoLetivo: "2ºsérie",
+  materiasFavoritas: ["Geografia","Programação","Arte"]
+}
+
 let linguagens = ["Javascript", "Python", "C"];
 const item = document.querySelector("#lista");
 item.textContent = linguagens[0];
