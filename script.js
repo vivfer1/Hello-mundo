@@ -18,7 +18,11 @@ function inserirNome() {
   materiasFavoritas: ["Geografia","Programação","Arte"]
 }
 
-console.log(aluno1),
+console.log(aluno1.nome),
+console.log(aluno1.idade),
+console.log(aluno1.anoLetivo),
+console.log(aluno1.materiasFavoritas[2]),
+
 
 let linguagens = ["Javascript", "Python", "C"];
 const item = document.querySelector("#lista");
