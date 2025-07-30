@@ -18,6 +18,8 @@ function inserirNome() {
   materiasFavoritas: ["Geografia","Programação","Arte"]
 }
 
+console.log(aluno1),
+
 let linguagens = ["Javascript", "Python", "C"];
 const item = document.querySelector("#lista");
 item.textContent = linguagens[0];
