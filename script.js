@@ -32,7 +32,15 @@ item1.textContent = linguagens[0];
 const item2 = document.querySelector("#lista2");
 item2.textContent = linguagens[1];
 const item3 = document.querySelector("#lista3");
-item3.textContent = linguagens[2];
+item3.textContent = linguagens[2]
+}
+
+for (const linguagem of linguagens) {
+  const itemDaLista = document.createElement("li");
+  itemDaLista.textContent = linguagem;
+  item.appendChild(itemDaLista);
+}
+
 
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
