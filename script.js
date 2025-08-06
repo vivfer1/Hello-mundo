@@ -1,12 +1,12 @@
 function inserirNome() {
     let nomeUsuario = prompt("Qual o seu nome?");
-    let elemento = document.querySelector("#nome-usuario");
+    let elemento = document.querySelector("#aluno");
     elemento.textContent = nomeUsuario;
     }
 
     inserirNome() {
     let nomeUsuario = prompt("Qual o seu nome?");
-    let elemento = document.querySelector("#nome-usuario");
+    let elemento = document.querySelector("#aluno");
     elemento.textContent = nomeUsuario;
     }
  inserirNome() 
@@ -22,14 +22,17 @@ console.log(aluno1.nome),
 console.log(aluno1.idade),
 console.log(aluno1.anoLetivo),
 console.log(aluno1.materiasFavoritas[2]),
+const objeto = document.querySelector("#aluno");
+objeto.textContent = aluno1.nome;
 
 
 let linguagens = ["Javascript", "Python", "C"];
-const item = document.querySelector("#lista");
-item.textContent = linguagens[0];
-console.log(linguagens[0]);
-console.log(linguagens[1]);
-console.log(linguagens[2]);
+const item1 = document.querySelector("#lista1");
+item1.textContent = linguagens[0];
+const item2 = document.querySelector("#lista2");
+item2.textContent = linguagens[1];
+const item3 = document.querySelector("#lista3");
+item3.textContent = linguagens[2];
 
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
@@ -105,3 +108,24 @@ function mostraResultado() {
 }
 
 mostraPergunta();
+
+function inserirNome() {
+    let nomeUsuario = prompt("Qual o seu nome?");
+    let elemento = document.querySelector("#nome-usuario");
+    elemento.textContent = nomeUsuario;
+}
+
+inserirNome();
+
+let linguagens = ["Javascript", "Python", "C"];
+const item = document.querySelector("#lista");
+item.textContent = linguagens[3];
+
+let aluno1 = {
+  nome: "Gabriel",
+  idade: 13,
+  anoLetivo: "2ºsérie",
+  materiasFavoritas: ["Geografia","Programação","Arte"]
+}
+
+console.log(aluno1.nome);
